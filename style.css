@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    color: #333333;
+}
+header {
+    display: flex;
+    gap: 5px;
+    background-color: white;
+    align-items: center;
+    padding: 5px;
+    padding-left: 55px;
+}
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+img.logo {
+    width: 80px;
+    height: 80px;
+}
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav {
+    background-color: #173B6C;
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+
+main {
+    min-height: 80%;
+    display: flex;
+    padding: 10px;
+    background-color: #EAF4FA;
+    gap: 20px;
+    max-width: 1170px;
+    flex-wrap: wrap;
+    margin:auto;
+    
+}
+.wyd {
+    flex-grow:1;
+    text-align: justify;
+    background-color:#94c2fb;
+    height: auto;
+    min-height: 0;
+    padding: 15px;
+    flex-basis: 100px;
+    order: 2;
+}
+p, h1, h2, h3 {
+        overflow-wrap: break-word;
+}
+.wydarzenie {
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+
+.onas {
+    flex-grow: 4;
+    text-align: justify;
+    padding: 25px;
+    flex-basis: 500px;
+    order: 1;
+}
+.onas p {
+    margin-top: 10px;
+}
+
+.chmielno {
+    width: 250px;
+    height: 160px;
+    float: right;
+    margin: 0 0 20px 30px;
+    border-radius: 5px;
+}
+p {
+    padding: 0px 0px 10px 10px;
+}
+
+footer{
+    text-align: center;
+    background-color:#173B6C;
+    padding: 5px;
+    color: white;
+}
+footer div p {
+    text-align: left;
+    padding-left: 50px;
+}
+footer div a {
+    color: white;
+    text-decoration: none;
+}
+.formularz {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+        flex-wrap:wrap;
+}
+.formularz div{
+    flex-basis: 300px;
+    min-width: 40%;
+    flex-grow: 1;
+    flex-shrink:0;
+
+   
+}
+input {
+    width: 100%;
+    height: 25px;
+    
+}
+button{
+    height: 30px;
+    font-weight: bold;
+    width: 100%;
+    background-color: white;
+}
+
+.kontakt {
+    flex-basis: 500px;
+    flex-grow: 3;
+    border: #173B6C 1px solid;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+#tresc {
+    height: 50px;
+    width: 100%;
+}
+div.rodo {
+    text-align: left;
+    flex-basis: 100%;
+    text-align: justify;
+}
+#rodo {
+    width: auto;
+}
+
+.godz_otw {
+    flex-basis: 250px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    border: #173B6C 1px solid;
+    padding: 10px;
+}
+.godz_otw h2 {
+    flex-basis: 100%;
+}
+
+.sezon {
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.godz_otw p {
+    padding-left: 0;
+}
+.kontakt p {
+    padding-left: 0;
+}
+.kontakt, .godz_otw, .onas, .wyd{
+    background-color: white; /* Białe karty świetnie odcinają się od błękitnego tła */
+    border: none; /* Usuwamy surową, cienką ramkę */
+    border-radius: 8px; /* Zaokrąglamy rogi dla nowoczesnego wyglądu */
+    padding: 25px; /* Dajemy elementom więcej "oddechu" (paddingu) */
+    box-shadow: 0 4px 6px rgba(23, 59, 108, 0.08); /* Delikatny, miękki cień zamiast ramki */
+    box-sizing: border-box;
+}
